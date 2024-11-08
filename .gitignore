@@ -22,3 +22,14 @@ logs
 .env
 .env.*
 !.env.example
+
+# Set default behavior to automatically normalize line endings
+* text=auto
+
+# Explicitly specify text files to enforce LF line endings
+*.js text
+*.ts text
+*.json text
+*.md text
+*.vue text
+*.txt text
